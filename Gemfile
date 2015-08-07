@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'figaro'
+gem 'figaro', '>= 1.0.0'
 
 gem 'geocoder'
 
