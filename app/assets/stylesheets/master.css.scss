@@ -26,18 +26,25 @@ body {
 	background: #FFFFFF;
 	font-family: 'Helvetica Neue', Helvetica ,sans-serif;
 	font-weight: 300;
+	padding-top: 70px;
 }
 
-.navbar.navbar-inverse {
-	background:url('/assets/slash_it.png');
+.navbar {
+	background: white;
 	border-radius: 0;
-	box-shadow: 0px 2px 3px #2a2a2a;
+	-webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
+  	-moz-box-shadow:1px 1px 2px 0 #d0d0d0;
+  	box-shadow:1px 1px 2px 0 #d0d0d0;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar .navbar-brand {
 	color: #EB6709;
 	font-family: 'lobster_1.3regular', sans-serif;
 	font-size:30px;
+}
+
+.navbar-brand:hover {
+	color: #EB6709;
 }
 
 .paginate {
@@ -65,4 +72,25 @@ body {
 	clear: both;
 }
 
+.navbar-toggle {
+	background-color: #FFFFFF;
+	border-bottom-color: #5C5C5C;
+	border-left-color: #5C5C5C;
+	border-right-color: #5C5C5C;
+	border-top-color: #5C5C5C;
+}
 
+.icon-bar {
+	background-color: #5C5C5C;
+}
+
+.comment_font {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 100;
+}
+
+.btn .btn-primary {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 100;
+	letter-spacing: 4px;
+}
