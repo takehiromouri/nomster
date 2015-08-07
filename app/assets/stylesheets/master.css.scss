@@ -15,9 +15,17 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 }
 
+h1 {
+	font-family: 'Helvetica Neue', Helvetica ,sans-serif;
+	font-weight: 200;
+	letter-spacing: 4px;
+}
+
+
 body {
-	background: url('/assets/light_toast.png');
-	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	background: #FFFFFF;
+	font-family: 'Helvetica Neue', Helvetica ,sans-serif;
+	font-weight: 300;
 }
 
 .navbar.navbar-inverse {
@@ -34,6 +42,7 @@ body {
 
 .paginate {
 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	margin: 0 auto;
 }
 
 .field_with_errors {
@@ -45,7 +54,11 @@ body {
 
 #map-canvas {
         height: 300px;
-      }
+}
 
+.center {
+	margin: 0 auto;
+	width: 275px;
+}
 
 
