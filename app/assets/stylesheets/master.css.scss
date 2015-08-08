@@ -21,6 +21,12 @@ h1 {
 	letter-spacing: 4px;
 }
 
+h2 {
+	font-family: 'Helvetica Neue', Helvetica ,sans-serif;
+	font-weight: 200;
+	letter-spacing: 6px;
+}
+
 
 body {
 	background: #FFFFFF;
@@ -112,4 +118,34 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+.up_photos {
+	-webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
+  	-moz-box-shadow:1px 1px 2px 0 #d0d0d0;
+  	box-shadow:1px 1px 2px 0 #d0d0d0;
+  	border:1px solid #ccc;
+  	border-color:#e4e4e4 #bebebd #bebebd #e4e4e4;
+	display: block;
+	float: left;
+	height: 175px;
+	line-height: 16.7999992370605px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	overflow-wrap: break-word;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	text-align: center;
+	vertical-align: baseline;
+	width: 164px;
+	word-wrap: break-word;
 }
