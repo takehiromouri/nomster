@@ -32,8 +32,13 @@ ActiveRecord::Schema.define(version: 20150808132915) do
     t.text     "caption"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "Picture"
+    t.integer  "place_id"
+    t.integer  "user_id"
+    t.string   "picture"
   end
+
+  add_index "photos", ["place_id"], name: "index_photos_on_place_id", using: :btree
+  add_index "photos", ["user_id", "place_id"], name: "index_photos_on_user_id_and_place_id", using: :btree
 
   create_table "places", force: true do |t|
     t.string   "name"
@@ -61,7 +66,6 @@ ActiveRecord::Schema.define(version: 20150808132915) do
     t.inet     "last_sign_in_ip"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
-    t.string   "picture"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
