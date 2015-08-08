@@ -87,6 +87,17 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		<%= f.submit "Add a Comment", :class => 'btn btn-primary' %>
 		<% end %>
       </div>
+
+      <div class="clear"></div>
+      <%= simple_form_for @photo, :url => '#' do |f| %>
+      	<%= f.input :photo %>
+      	<%= f.input :caption %>
+      	<%= f.submit "Add a Photo", :class => 'btn btn-primary' %>
+      	<% end %>
+		
+
+
+
     </div>
   </div>
 </div>
