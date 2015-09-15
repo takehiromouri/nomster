@@ -134,11 +134,8 @@ blockquote p {
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
-
+	overflow: hidden;
 	margin: 5px 5px;
-	overflow-wrap: break-word;
-	overflow-x: hidden;
-	overflow-y: hidden;
 	padding-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 0px;

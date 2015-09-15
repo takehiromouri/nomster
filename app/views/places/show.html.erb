@@ -52,7 +52,9 @@
 			<% @place.photos.each do |photo| %>
 			<div class="up_photos">
 			<% if photo.picture.present? %>
+				
 		      	<%= image_tag photo.picture %>
+		      	
 			 	<%= photo.caption %>
 			<% end %>
 		 	</div>
